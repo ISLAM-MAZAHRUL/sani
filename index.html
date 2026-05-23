@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RABIUS SANI — Portfolio</title>
+  <link rel="stylesheet" href="sani.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HOME ===== -->
+  <div id="home" class="page active">
+    <div class="home-inner">
+      <div class="avatar">
+        <img src="image/sani1.jpg" alt="RABIUS SANI"
+        style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
+      </div>
+      <h1 class="home-name">RABIUS SANI</h1>
+      <p class="home-tagline">BANGLADESH ARMY → GOURIPUR, COMILLA</p>
+      <div class="nav-grid">
+        <div class="nav-card" onclick="show('about')">
+          <div class="icon">👤</div>
+          <span>About Me</span>
+        </div>
+        <div class="nav-card" onclick="show('education')">
+          <div class="icon">🎓</div>
+          <span>Education</span>
+        </div>
+        <div class="nav-card" onclick="show('skills')">
+          <div class="icon">💻</div>
+          <span>Skills</span>
+        </div>
+        <div class="nav-card" onclick="show('career')">
+          <div class="icon">💼</div>
+          <span>Career</span>
+        </div>
+        <div class="nav-card" onclick="show('sports')">
+          <div class="icon">🏸</div>
+          <span>Sports & Hobbies</span>
+        </div>
+        <div class="nav-card" onclick="show('photo')">
+          <div class="icon">📸</div>
+          <span>Photo with Memories</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <div id="about" class="page">
+    <div class="inner">
+      <div class="back-btn" onclick="show('home')">← Back</div>
+      <h2 class="page-title"><span class="dot"></span> About Me</h2>
+      <div class="card stagger-1">
+        <div class="info-row"><span class="info-label">Name</span><span class="info-val">RABIUS SANI</span></div>
+        <div class="info-row"><span class="info-label">Birthday</span><span class="info-val">November 19, 1994 (Age 31)</span></div>
+        <div class="info-row"><span class="info-label">Address</span><span class="info-val">Gouripur, Daudkandi, Cumilla</span></div>
+        <div class="info-row"><span class="info-label">Phone</span><span class="info-val">+8801851247070</span></div>
+        <div class="info-row"><span class="info-label">Email</span><span class="info-val">robiussunny70@gmail.com</span></div>
+        <div class="info-row"><span class="info-label">Languages</span><span class="info-val">Bengali · Japanese · English · Hindi</span></div>
+      </div>
+      <div class="card stagger-2">
+        <div class="card-title">Self PR</div>
+        <div class="card-sub">I am a hardworking and determined person who always tries my best to achieve my goals. I am passionate about sports and was known as one of the best football defenders in my district, which helped me develop teamwork and discipline.</div>
+      </div>
+      <div class="card stagger-3">
+        <div class="card-title">Friends & Social Life</div>
+        <div class="card-sub">My friends are very important to me. We enjoy spending time together — playing sports, going out, and supporting each other. I value loyalty and honesty in friendship and always try to be someone my friends can count on.</div>
+      </div>
+      <div class="card stagger-4">
+        <div class="card-title">Health</div>
+        <div class="card-sub">Excellent</div>
+        <span class="badge green">Good condition</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== EDUCATION ===== -->
+  <div id="education" class="page">
+    <div class="inner">
+      <div class="back-btn" onclick="show('home')">← Back</div>
+      <h2 class="page-title"><span class="dot"></span> Education</h2>
+      <div class="card stagger-1">
+        <div class="card-title">Gouripur Munshi Fazlur Rahman Govt. College</div>
+        <span class="badge green">Graduated 2017</span>
+      </div>
+      <div class="card stagger-2">
+        <div class="card-title">Gouripur S.A High School</div>
+        <div class="card-sub">Middle School · Bangladesh</div>
+        <div class="card-date">Graduated May 2014</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SKILLS ===== -->
+  <div id="skills" class="page">
+    <div class="inner">
+      <div class="back-btn" onclick="show('home')">← Back</div>
+      <h2 class="page-title"><span class="dot"></span> Skills</h2>
+     
+      <div class="card stagger-2">
+        <p class="section-label" style="margin-top:0">Languages</p>
+        <div class="skill-item">
+          <div class="skill-top"><span>Bengali (native)</span><span class="skill-pct">100%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="100"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span>English</span><span class="skill-pct">75%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="75"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span>Hindi</span><span class="skill-pct">60%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="60"></div></div>
+        </div>
+      </div>
+      <div class="card stagger-3">
+        <div class="card-title">Software</div>
+        <div class="card-sub">Microsoft Word · Excel · PowerPoint</div>
+      </div>
+      <div class="card stagger-4">
+        <p class="section-label" style="margin-top:0">Physical Skills</p>
+        <div class="skill-item">
+          <div class="skill-top"><span>Running</span><span class="skill-pct">90%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span>Swimming</span><span class="skill-pct">85%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="85"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CAREER ===== -->
+  <div id="career" class="page">
+    <div class="inner">
+      <div class="back-btn" onclick="show('home')">← Back</div>
+      <h2 class="page-title"><span class="dot"></span> Career</h2>
+      <p class="section-label" style="margin-top:0">Current Service</p>
+      <div class="card stagger-1">
+        <div class="card-title">🪖 Bangladesh Army</div>
+        <div class="card-sub">Serving as an active member of the Bangladesh Army. Representing the nation with discipline, dedication, and teamwork.</div>
+        <span class="badge green">Currently Serving</span>
+      </div>
+      <p class="section-label">National Team</p>
+      <div class="card stagger-2">
+        <div class="card-title">⚽ Bangladesh Army Football — National Team</div>
+        <div class="card-sub">Selected to represent the Bangladesh Army at the national level in football. Competing in inter-army and national tournaments as a key squad member.</div>
+        <span class="badge green">National Level Player</span>
+      </div>
+      <p class="section-label">Career Goal</p>
+      <div class="card stagger-3">
+        <div class="card-title">Dedicated Soldier & Athlete</div>
+        <div class="card-sub">My goal is to serve my country with full dedication — both on the field as a soldier and on the pitch as a footballer. I aim to continue representing Bangladesh Army at the highest level and inspire others through discipline and hard work.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SPORTS ===== -->
+  <div id="sports" class="page">
+    <div class="inner">
+      <div class="back-btn" onclick="show('home')">← Back</div>
+      <h2 class="page-title"><span class="dot"></span> Sports & Hobbies</h2>
+      <div class="sport-card stagger-1">
+        <div class="sport-icon">⚽</div>
+        <div>
+          <div class="card-title">Football — Army National Team</div>
+          <div class="card-sub">Representing Bangladesh Army at national level. Football taught me leadership, discipline, and the power of teamwork under pressure.</div>
+          <span class="badge green">National Player</span>
+        </div>
+      </div>
+      <div class="sport-card stagger-2">
+        <div class="sport-icon">🏏</div>
+        <div>
+          <div class="card-title">Cricket</div>
+          <div class="card-sub">Passionate cricket player. Enjoys both batting and fielding — cricket keeps the competitive spirit alive.</div>
+        </div>
+      </div>
+      <div class="sport-card stagger-3">
+        <div class="sport-icon">🏸</div>
+        <div>
+          <div class="card-title">Badminton</div>
+          <div class="card-sub">Plays badminton regularly for fitness and fun. Quick reflexes and agility developed through years of practice.</div>
+        </div>
+      </div>
+      <div class="sport-card stagger-4">
+        <div class="sport-icon">🏃</div>
+        <div>
+          <div class="card-title">Running</div>
+          <div class="card-sub">Strong long-distance runner. Daily running is part of the Army routine — built exceptional stamina and mental toughness.</div>
+          <span class="badge green">High Endurance</span>
+        </div>
+      </div>
+      <div class="sport-card stagger-5">
+        <div class="sport-icon">🏊</div>
+        <div>
+          <div class="card-title">Swimming</div>
+          <div class="card-sub">Skilled swimmer with strong technique. Swimming builds full-body strength and is a key part of physical fitness training.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PHOTO WITH MEMORIES ===== -->
+  <div id="photo" class="page">
+    <div class="inner">
+      <div class="back-btn" onclick="show('home')">← Back</div>
+      <h2 class="page-title"><span class="dot"></span> Photo with Memories</h2>
+      <div class="photo-grid">
+        <div class="photo-card stagger-1">
+          <div class="photo-wrap">
+            <img src="image/sani1.jpg" alt="Memory 1">
+          </div>
+          <div class="photo-info">
+            <div class="photo-caption">For Peace</div>
+            <div class="photo-meta">📍 Dhaka · 2023</div>
+          </div>
+        </div>
+        <div class="photo-card stagger-2">
+          <div class="photo-wrap">
+            <img src="image/sani2.JPG" alt="Memory 2">
+          </div>
+          <div class="photo-info">
+            <div class="photo-caption">Special Moment</div>
+            <div class="photo-meta">📍 Dhaka · 2023</div>
+          </div>
+        </div>
+        <div class="photo-card stagger-3">
+          <div class="photo-wrap">
+            <img src="image/sani3.jpg" alt="Memory 3">
+          </div>
+          <div class="photo-info">
+            <div class="photo-caption">Duty Time</div>
+            <div class="photo-meta">📍 Cumilla · 2022</div>
+          </div>
+        </div>
+        <div class="photo-card stagger-4">
+          <div class="photo-wrap">
+            <img src="image/sani4.JPG" alt="Memory 4">
+          </div>
+          <div class="photo-info">
+            <div class="photo-caption">Training Moment</div>
+            <div class="photo-meta">📍 Bangladesh · 2024</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="sani.js"></script>
+</body>
+</html>
